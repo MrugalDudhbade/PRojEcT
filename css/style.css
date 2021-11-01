@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -72,7 +74,7 @@ p{
     width: 99%;
 }
 
-.navbar:before{
+.navbar::before{
     content: "";
     position: absolute;
     top: 0%;
@@ -140,7 +142,7 @@ p{
 
 
 
-/* *********************MID PART************** */
+/* *********************WHAT WE DO STARTS************** */
 
 
 .bottom{
@@ -165,6 +167,7 @@ p{
     margin-bottom: 5%;
     padding:20px 12px;
     box-sizing: border-box;
+    transition: 00.5s;
 }
 
 .role-indv:hover{
@@ -177,3 +180,78 @@ p{
     }
 }
 
+/* *********************WHAT WE DO ENDS************** */
+
+
+.Events{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* margin-top: 15%;*/
+    /* margin-bottom: 15%;  */
+    background: #0000FF;
+}
+
+.Events h2{
+    color: #9FE5D7;
+}
+.Events h4{
+    color: #9FE5D7;
+}
+
+.Achievement{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    /* border-radius: 2px solid black; */
+
+}
+.work{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+}
+
+.work-indv{
+    flex-basis: 31%;
+    background: rgb(243 242 247);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:170px 20px;
+    box-sizing: border-box;
+    transition: 00.5s;
+}
+
+.work-indv:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);   /* Give Shadow effect to Boxes */
+    /* text-decoration-color: rgb(255, 255, 255); */
+}
+
+@media(max-width:700px){
+    .work{
+        flex-direction: column;
+    }
+}
+
+.work-indv h4{
+    opacity: 0%;
+    transition: 1s;
+}
+
+.work-indv:hover h4{
+    opacity: 100%;
+    transition: 1s;
+    /* color: blanchedalmond; */
+}
+
+.fas fa-microchip{
+    size: 200px;
+}
+.fa-color{
+color: #16c9f6;
+}
