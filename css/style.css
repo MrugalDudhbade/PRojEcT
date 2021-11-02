@@ -248,7 +248,13 @@ p{
 .work-indv:hover h4{
     opacity: 100%;
     transition: 0.5s;
+    
+    
     /* color: blanchedalmond; */
+}
+
+.work-indv:hover{
+    background: #16c9f6;
 }
 
 .fas fa-microchip{
@@ -256,6 +262,10 @@ p{
 }
 .fa-color{
 color: #16c9f6;
+}
+.work-indv:hover .fa-color{
+    color: black;
+    transition: 0.5;
 }
 
 /* *********************ACHIEVEMENT SECTION ENDS************** */
