@@ -2,9 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -78,7 +75,7 @@ p{
     content: "";
     position: absolute;
     top: 0%;
-    bottom: 0%;
+    bottom: 5%;
     left: 0%;
     right: 0%;
     opacity: 0.5;
@@ -140,8 +137,6 @@ p{
 
 
 
-
-
 /* *********************WHAT WE DO STARTS************** */
 
 
@@ -182,6 +177,9 @@ p{
 
 /* *********************WHAT WE DO ENDS************** */
 
+/* *********************EVENT SECTION STARTS************** */
+
+
 
 .Events{
     width: 100%;
@@ -200,6 +198,10 @@ p{
 .Events h4{
     color: #9FE5D7;
 }
+
+/* *********************EVENT SECTION ENDS************** */
+
+/* *********************ACHIEVEMENT SECTION STARTS************** */
 
 .Achievement{
     width: 80%;
@@ -245,7 +247,7 @@ p{
 
 .work-indv:hover h4{
     opacity: 100%;
-    transition: 1s;
+    transition: 0.5s;
     /* color: blanchedalmond; */
 }
 
@@ -255,3 +257,10 @@ p{
 .fa-color{
 color: #16c9f6;
 }
+
+/* *********************ACHIEVEMENT SECTION ENDS************** */
+
+
+/* *********************MENTOR SECTION ENDS************** */
+
+
