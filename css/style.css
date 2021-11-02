@@ -264,3 +264,50 @@ color: #16c9f6;
 /* *********************MENTOR SECTION ENDS************** */
 
 
+.mentor{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.MList{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.MCol{
+    flex-basis: 31%;
+    background: rgb(243 242 247);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:90px 20px;
+    box-sizing: border-box;
+    transition: 00.5s;
+}
+.MCol:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);   /* Give Shadow effect to Boxes */
+}
+@media(max-width:700px){
+    .MList{
+        flex-direction: column;
+    }
+}
+
+.MCol h4{
+    opacity: 0%;
+    transition: 1s;
+}
+
+.MCol:hover h4{
+    opacity: 100%;
+    transition: 0.5s;
+    /* color: blanchedalmond; */
+}
+.MCol:hover {
+    background: #9FE5D7;
+}
+
+
