@@ -271,7 +271,9 @@ color: #16c9f6;
 /* *********************ACHIEVEMENT SECTION ENDS************** */
 
 
-/* *********************MENTOR SECTION ENDS************** */
+
+
+/* *********************MENTOR SECTION STARTS************** */
 
 
 .mentor{
@@ -320,4 +322,62 @@ color: #16c9f6;
     background: #9FE5D7;
 }
 
+/* *********************MENTOR SECTION ENDS************** */
 
+
+/* *********************FOOTER SECTION STARTS************** */
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    background-color: black;
+}
+
+.footer h2,h6{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-weight: 200;
+    transition: 1s;
+    color: whitesmoke;
+}
+.icons .fab{
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 20px 0px;
+}
+
+.icons .fas{
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 20px 0px;
+}
+
+
+.fa-linkedin:hover{
+    color: #0e76a8;
+    transition: 0.5s;
+
+}
+
+.fa-twitter:hover{
+    color: #00acee;
+    transition: 0.5s;
+}
+
+.fa-instagram:hover{
+    color:#8a3ab9;
+    transition: 0.5s;
+}
+.fa-envelope:hover{
+    color: #8a3ab9;
+    transition: 0.5s;
+}
+
+h6 img{
+    width: 20px;
+    height: 20px;
+}
+
+/* *********************FOOTER SECTION ENDS************** */
